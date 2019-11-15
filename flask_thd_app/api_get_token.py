@@ -57,7 +57,6 @@ class API_Handle:
             response_json =response.json()
             token = response_json["access_token"]
             # print(response.content)
-            # print(response.json())
             # print(json.dumps(response.json(), indent=4))
             header = {'Authorization': 'Bearer ' + token}
             print("Got Token:", token)

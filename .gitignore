@@ -1,3 +1,5 @@
 
 .idea/
 *.lock
+
+survey_monkey/config.py

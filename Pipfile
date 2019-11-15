@@ -7,6 +7,10 @@ verify_ssl = true
 
 [packages]
 flask = "*"
+requests = "*"
+numpy = "*"
+geocoder = "*"
+geopy = "*"
 
 [requires]
 python_version = "3.7"

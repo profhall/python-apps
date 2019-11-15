@@ -1,0 +1,8 @@
+---
+applications:
+  - name: om_py_App
+    memory: 128MB
+    disk_quota: 512MB
+    buildpack: python_buildpack
+    command: python app_flask/app.py
+    instances: 1
